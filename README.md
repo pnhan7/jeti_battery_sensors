@@ -1,20 +1,20 @@
-# Reading Bus Voltage INA219 Sensors
+# Reading INA219 Sensors
 
 ## Overview
 - Supports up to 4 INA219 devices.
-- Connects to **A4** (SDA) and **A5** (SCL) pins of the Arduino Pro Mini 5v/16Hz.
+- Connects to **A4** (SDA) and **A5** (SCL) pins of the Arduino Pro Mini.
 
 ---
 
 ## Connection Diagram
 
 ### **RX to Arduino**
-| RX Pin   | Arduino Pin     |
-|----------|-----------------|
-| GND      | GND             |
-| VDD      | RAW             |
-| Ext/E1   | D3              |
-| -        | D3 <R2.4k> D4   |
+| RX Pin   | Arduino Pin         |
+|----------|---------------------|
+| GND      | GND                 |
+| VDD      | RAW                 |
+| Ext/E1   | D3                  |
+| -        | D3 → R (2.4kΩ) → D4 |
 
 ---
 
