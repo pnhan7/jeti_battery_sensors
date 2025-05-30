@@ -1,4 +1,4 @@
-# Reading INA219 Sensors
+# Reading Battery Voltage Using INA219 Sensor
 
 ## Overview
 - Supports up to 4 INA219 devices.
