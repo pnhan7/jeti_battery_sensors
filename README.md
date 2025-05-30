@@ -2,7 +2,7 @@
 
 ## Overview
 - Supports up to 4 INA219 devices.
-- Connects to **A4** (SDA) and **A5** (SCL) pins of the Arduino Pro Mini.
+- Connects to **VCC** (VCC), **GND** (GND), **A4** (SDA) and **A5** (SCL) pins of the Arduino Pro Mini(5v/16MHz) to INA219.
 
 ---
 
@@ -31,8 +31,8 @@
 ### **INA219 to Battery**
 | INA219 Pin | Battery Terminal |
 |------------|------------------|
-| VIN+       | Positive         |
-| VIN-       | Negative         |
+| VIN-       | Positive         |
+| GND       | Negative         |
 
 ---
 
